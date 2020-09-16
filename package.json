@@ -1,0 +1,22 @@
+{
+  "name": "lesson-task-js2-module1-lesson1",
+  "version": "1.0.0",
+  "description": "## Lesson Task 1 Question",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdtunes/lesson-task-js2-module1-lesson1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pdtunes/lesson-task-js2-module1-lesson1/issues"
+  },
+  "homepage": "https://github.com/pdtunes/lesson-task-js2-module1-lesson1#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.2"
+  }
+}

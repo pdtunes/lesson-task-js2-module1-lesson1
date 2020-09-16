@@ -5,7 +5,7 @@ async function getResult() {
   const response = await fetch(url);
   const results = await response.json();
   const breakingBad = results.data;
-  const resultsContainer = document.querySelector (".results")
+  const resultsContainer = document.querySelector (".card")
  
 console.log (breakingBad)
 
