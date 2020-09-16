@@ -18,15 +18,16 @@ console.log (breakingBad)
     const birthday = breakingBad[i].birthday
     const nickName = breakingBad[i].nickname
 
-    resultsContainer.innerHTML += `<div class="results"> 
-    <h1>Name: ${breakingBad[i].name} </h1> 
-    <p>Birthday: ${breakingBad[i].birthday} <p> 
-    <p>Nickname: ${breakingBad[i].nickName} </p> 
+    console.log(breakingBad[i]);
+
+    resultsContainer.innerHTML += `<div class="card-body"> 
+    <h5 class="card-title" ${breakingBad[i].name} </h5> 
+    <p class="card-text"> ${breakingBad[i].birthday} <p> 
+    <p class="card-text"> ${breakingBad[i].nickname} </p> 
     </div>`
 
-    if (i === 6) {   
-        break
-        ;
+    if (i === 7) {   
+        break;
           }
 
   }
