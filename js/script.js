@@ -21,7 +21,7 @@ console.log (breakingBad)
     console.log(breakingBad[i]);
 
     resultsContainer.innerHTML += `<div class="card-body"> 
-    <h5 class="card-title" ${breakingBad[i].name} </h5> 
+    <h5 class="card-title" ${breakingBad[i].name} </h5>
     <p class="card-text"> ${breakingBad[i].birthday} <p> 
     <p class="card-text"> ${breakingBad[i].nickname} </p> 
     </div>`
